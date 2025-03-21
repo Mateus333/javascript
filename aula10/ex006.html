@@ -7,11 +7,11 @@
     <style>
         body {
             background-color: gray;
-            color: white;
         }
         div#area {
-            font: normal 15pt Arial;
-            background: rgb(42, 139, 42);
+            font: normal 20pt Arial;
+            background-color: rgb(54, 170, 54);
+            color: white;
             width: 200px;
             height: 200px;
             line-height: 200px;
@@ -20,7 +20,7 @@
     </style>
 </head>
 <body>
-    <div id="area">
+    <div id="area" onclick="clicar()" onmouseenter="entrar()" onmouseout="sair()">
         Interaja...
     </div>
 
@@ -31,15 +31,15 @@
         a.addEventListener('mouseout', sair)
 
         function clicar() {
-            a.innerText = 'Clicou!!!'
+            a.innerText = 'Clicou!!'
             a.style.background = 'red'
         }
-        function entrar () {
-            a.innerText = 'Entrou!!!'
+        function entrar() {
+            a.innerText = 'Entrou!!'
         }
-        function sair () {
-            a.innerText = 'Sair!!!'
-            a.style.background = 'green'
+        function sair() {
+            a.innerText = 'Saiu!!'
+            a.style.background = 'rgb(54, 170, 54)'
         }
     </script>
 </body>
