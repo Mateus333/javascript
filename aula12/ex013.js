@@ -11,15 +11,19 @@ var diaSem = agora.getDay()
     6 = Sábado
 */
 
-console.log(diaSem)
-switch (diaSem) {
+//console.log(diaSem)
+
+// O IF se caso precisar testar intervalos, é muito mais valioso testar o IF.
+// O SWITCH é muito importante para testa valores, dados pontuais.
+
+switch(diaSem) {
     case 0:
         console.log('Domingo')
         break
     case 1:
         console.log('Segunda')
         break
-    case 2:
+    case 2: 
         console.log('Terça')
         break
     case 3:
@@ -28,13 +32,13 @@ switch (diaSem) {
     case 4:
         console.log('Quinta')
         break
-    case 5:
+    case 5: 
         console.log('Sexta')
         break
     case 6:
         console.log('Sábado')
         break
     default:
-        console.log('[ERRO] Dia inválido!')
+        console.log('[ERRO] Dia Inválido')
         break
 }
