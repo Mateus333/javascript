@@ -19,12 +19,8 @@ section {
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.377);
 }
 
-div#res {
-    margin: 5px;
-}
-
-input {
-    margin: 8px;
+p {
+    margin: 3px;
 }
 
 footer {
